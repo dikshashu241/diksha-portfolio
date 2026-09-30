@@ -21,21 +21,19 @@ return ( <section className="hero" id="home"> <div className="hero-container"> <
       </p>
 
       <div className="hero-buttons">
-        <button
-          className="primary-btn"
-          onClick={scrollToProjects}
-        >
-          View My Work
-        </button>
+  <button className="primary-btn" onClick={scrollToProjects}>
+    View My Work
+  </button>
 
-        <a
-          href="mailto:dikshashu241@gmail.com"
-          className="secondary-btn"
-        >
-          Contact Me
-        </a>
-      </div>
-
+  <a
+    href="/Diksha-Sahu-Resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="secondary-btn"
+  >
+    Download Resume
+  </a>
+</div>
       <div className="hero-socials">
         <a
           href="https://github.com/dikshashu241"
